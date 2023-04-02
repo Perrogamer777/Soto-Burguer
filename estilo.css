@@ -2,7 +2,6 @@
     font-weight: bold;   
 }
 .textoBarr{
-
     font-size: large;
     font-weight: bold; 
 }
@@ -24,12 +23,9 @@
 .row{
 
     padding: 10px;
-    
- 
 }
 
 .col-4{
-
     margin: 100px;
 }
 
@@ -37,5 +33,10 @@
     background-color: rgb 248, 249, 250;
 }
 
+div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
 
