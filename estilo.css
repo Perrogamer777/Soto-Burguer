@@ -34,22 +34,16 @@
 }
 
 
-div {
-    width: 100%;
-    display: flex;
-    justify-content: center; 
-}
-
 .contenedor {
     position: relative;
     display: inline-block;
     text-align: center;
-
 }
+
 .texto_encima{
     position:absolute;
     top: 75%;
-    right: 19%;
+    right: 20%;
     font-size:  70px;
     color : white;
 
