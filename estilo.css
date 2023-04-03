@@ -33,7 +33,16 @@
     background-color: rgb 248, 249, 250;
 }
 
+img {
+    display: block;
+    margin: auto;
 
+}
+
+.div-img{
+    display: flex;
+    justify-content: center;
+}
 .contenedor {
     position: relative;
     display: inline-block;
@@ -43,7 +52,7 @@
 .texto_encima{
     position:absolute;
     top: 75%;
-    right: 20%;
+    right: 65%;
     font-size:  70px;
     color : white;
 
