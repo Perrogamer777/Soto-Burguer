@@ -33,6 +33,9 @@
               <li class="nav-item">
                 <a class="nav-link active" href="Nosotros.html">Nosotros</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="soporte.html">Soporte</a>
+              </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -153,8 +156,30 @@
                         <label for="exampleInputEmail1" class="form-label">Ingrese su correo: </label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Nunca compartiremos tu correo</div>
+                        
                       </div>
-                      <button type="submit" class="btn btn-primary">Suscribirse</button>
+          
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Suscribirse
+                      </button>
+                      
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">Newsletter Soto Burguers</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Correo registrado con éxito
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </form>
                   </div>
           
