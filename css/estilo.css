@@ -51,7 +51,7 @@ img {
 
 .texto_encima{
     position:absolute;
-    top: 75%;
+    top: 100%;
     right: 65%;
     font-size:  70px;
     color : white;
