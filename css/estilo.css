@@ -75,10 +75,34 @@ textarea.error   {
 }
 
 
+.color1 { color: #f1ecdf };
+.color2 { color:#d4c9ad };
+.color3 { color: #c7ba99 };
+.color4 { color: #000000 };
+.color5 { color: #e4844a };
+
+:root {
+    --bs-body-bg: #f1ecdf;
+    
+}
 
 
+nav{
+    background-color: #e4844a;
+    font-weight: bold;
+    font-size: large;  
+}
+
+body{
+    background-color: #f1ecdf;
+
+}
 
 
+footer{
+    Background-color:#d4c9ad;
+
+}
 
 
   
@@ -110,10 +134,7 @@ textarea.error   {
   }
   
   /* Animación */
-  @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-  }
+  
     
   @keyframes animarsuperior {
     from {top:-300px; opacity:0}
