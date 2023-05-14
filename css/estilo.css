@@ -39,6 +39,22 @@ img {
 
 }
 
+label.error{
+    color: red;
+}
+
+input.error   {
+    border: 1px solid red;
+}
+
+select.error   {
+    border: 1px solid red;
+}
+
+textarea.error   {
+    border: 1px solid red;
+}
+
 .div-img{
     display: flex;
     justify-content: center;
