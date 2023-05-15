@@ -189,6 +189,22 @@ footer{
 }
 
 
+/* mapita responsivo */
+
+@media screen and (max-width:1200px){
+    #divmap{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:770px){
+    #divmap{
+        width: 90%;
+    }
+    
+}
+
 
 
 
