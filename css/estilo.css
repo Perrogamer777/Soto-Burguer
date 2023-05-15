@@ -118,10 +118,10 @@ footer{
 
 #divmap{
     height: 400px; 
-    width: 100%;
-    align-items: center;
-    padding: 40px 70px 75px 100px;
-
+    width: 1180px;
+    margin: auto;
+    border-radius: 02%;
+    
 }
 
 
@@ -175,6 +175,19 @@ footer{
     text-decoration: none;
     cursor: pointer;
   }
+
+.titulo_locales{
+    text-align: center;
+    font-size: 4em;
+
+}
+
+.titulo_soporte{
+    text-align: center;
+    font-size: 4em;
+
+}
+
 
 
 
