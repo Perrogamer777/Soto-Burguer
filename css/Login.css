@@ -26,14 +26,14 @@ input{
     margin: 0 0 15px;
     padding: 15px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 14px;    
 }
 
 .boton {
     font-family:  sans-serif;
     text-transform: uppercase;
     outline: 0;
-    background-color: #626567;
+    background-color: rgb(245, 172, 61);
     width: 100%;
     border: 0;
     padding: 15px;
@@ -58,4 +58,8 @@ input{
     padding: 45px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.ashe1{
+    color: white;
 }
