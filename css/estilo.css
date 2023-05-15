@@ -88,13 +88,14 @@ textarea.error   {
 
 
 nav{
-    color: #f1ecdf;
+    
     background-color: rgb(245, 172, 61);
     font-weight: bold;
     font-size: large;  
+   
 }
 
-body{
+body{   
     background-color: #f1ecdf;
 
 }
