@@ -176,6 +176,19 @@ footer{
     cursor: pointer;
   }
 
+.titulo_locales{
+    text-align: center;
+    font-size: 4em;
+
+}
+
+.titulo_soporte{
+    text-align: center;
+    font-size: 4em;
+
+}
+
+
 
 
 
