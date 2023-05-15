@@ -31,3 +31,20 @@ window.addEventListener("click",function(event) {
 close.addEventListener('click', () => {
     modal_container.classList.remove('show');
   });
+
+
+// wea pal google map :)
+function initMap() {
+  //coordernas
+  var coord = { lat: -41.4727879, lng: -72.9369317};
+  
+  var map = new google.maps.Map(document.getElementById("divmap"), {
+    zoom: 15,
+    center: coord,
+  });
+  //marcador
+  var marker = new google.maps.Marker({
+    position: coord,
+    map: map,
+  });
+}
