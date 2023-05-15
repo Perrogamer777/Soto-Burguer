@@ -116,6 +116,14 @@ footer{
 
 }
 
+#divmap{
+    height: 400px; 
+    width: 100%;
+    align-items: center;
+    padding: 40px 70px 75px 100px;
+
+}
+
 
   
 /* Fondo modal: negro con opacidad al 50% */
