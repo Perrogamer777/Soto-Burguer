@@ -174,9 +174,6 @@ body.showLoginForm .popup{
     
 }
 
-
-<<<<<<< HEAD
-  
 /* Fondo modal: negro con opacidad al 50% */
 .modal {
     display: none; /* Por defecto, estará oculto */
@@ -227,10 +224,6 @@ body.showLoginForm .popup{
     cursor: pointer;
   }
 
-
-
-=======
->>>>>>> 0d2a5535d84cb19481567970115b5cd49dd1764f
 /* mapita responsivo */
 
 @media screen and (max-width:1200px){
