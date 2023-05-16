@@ -8,7 +8,7 @@ $(document).ready(function () {
 
 
 
-// wea pal google map :)
+// pal google map :)
 function initMap() {
   //coordernas
   var coord = { lat: -41.4727879, lng: -72.9369317};
