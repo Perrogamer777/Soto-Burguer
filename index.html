@@ -63,7 +63,7 @@
     </div>
   </nav><br><br><br>
   <header>
-    <img src="Imagenes/image.png" alt="">
+    <img id="brand" src="Imagenes/image.png" alt="brand sotoburguer">
   </header>
 
   <article class="container-sm">
@@ -84,7 +84,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="Imagenes/lokComiendo.jpg" class="d-block w-100" alt="..." width="" height="480px">
+          <img src="Imagenes/lokComiendo.jpg" class="d-block w-100" alt="chico_comiendo" width="" height="480px">
           <div class="carousel-caption d-none d-md-block">
             <h5>Soto Burguers</h5>
             <p>Que ganas de comer una rica hamburguesita</p>
@@ -102,7 +102,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
+  </article>
     <br>
     <header class="titulo container d-flex justify-content-center">
       <div class="row">
@@ -309,91 +309,112 @@
     </main>
 
     <br>
-      <footer>
+
+    <footer>
 
 
-    <section class="container">
-      <br>
-      <div class="container text-center text-md-start">
+      <section class="container">
+        <br>
+        <div class="container text-center text-md-start">
 
-        <div class="row mt-3">
+          <div class="row mt-3">
 
 
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-            <h6 class="text-uppercase fw-bold mb-4">
-              Quieres ser el primero en enterarte de nustras nuevas hamburguesas y promos?
-            </h6>
-            <p>Suscríbete a nuestro Newsletter:</p>
-
-            <form>
-              <div class="mb-3">
-                <label for="correo" class="form-label">Ingrese su correo:  </label>
-                <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Nunca compartiremos tu correo</div>
-                <input type="button" class="btn btn-warning" value="Suscribirse" onclick="validarCorreo(document.getElementById('correo').value)">
-
+              <div id="alertRojo" class="alert alert-danger" role="alert">
+                El correo ingresesado es no es válido
               </div>
-            </form>
 
-            <div id="ventanaModal" class="modal">
-              <div class="contenido-modal">
-                <span class="cerrar">&times;</span>
-                <h2 class="display-5">Soto Burguers</h2>
-                <p>Correo registrado correctamente</p>
+              <div id="alertVerde" class="alert alert-success" role="alert">
+                Correo ingresado correctamente
               </div>
+
+              <h6 class="text-uppercase fw-bold mb-4">
+                ¿Quieres ser el primero en enterarte de nuestras nuevas hamburguesas y promos?
+              </h6>
+              <p>Suscríbete a nuestro Newsletter</p>
+
+              <form>
+                <div class="mb-3">
+                  <label for="correo" class="form-label">Ingrese su correo: </label>
+                  <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Nunca compartiremos tu correo</div>
+                  <input type="button" class="btn btn-warning" value="Suscribirse"
+                    onclick="validarCorreo(document.getElementById('correo').value)">
+
+                </div>
+              </form>
+
+              <div id="ventanaModal" class="modal">
+                <div class="contenido-modal">
+                  <span class="cerrar">&times;</span>
+                  <h2 class="display-5">Soto Burguers</h2>
+                  <p>se ha suscrito correctamente</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-4">
+                Síguenos!
+              </h6>
+              <p>
+                <a href="https://www.instagram.com/soto__burguers/" target="_blank" class="text-reset">Instagram</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Facebook</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Twitter</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Tik Tok</a>
+              </p>
+            </div>
+
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+              <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+              <p>Al. del Libertador Bernardo O'Higgins 108, Santiago, Región Metropolitana </p>
+              <p>sotoburguers@gmail.com</p>
+              <p> +569 40155266</p>
+              <p> +569 26192736 </p>
             </div>
 
           </div>
 
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-            <h6 class="text-uppercase fw-bold mb-4">
-              Síguenos!
-            </h6>
-            <p>
-              <a href="https://www.instagram.com/soto__burguers/" target="_blank" class="text-reset">Instagram</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Facebook</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Twitter</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Tik Tok</a>
-            </p>
-          </div>
-
-
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-            <p>Al. del Libertador Bernardo O'Higgins 108, Santiago, Región Metropolitana </p>
-            <p>sotoburguers@gmail.com</p>
-            <p> +569 40155266</p>
-            <p> +569 26192736 </p>
-          </div>
-
         </div>
+      </section>
 
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2023 Todos los derechos reservados:
+        <a class="text-reset fw-bold" href="index.html">www.SotoBurguers.com</a>
       </div>
-    </section>
 
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-      © 2023 Todos los derechos reservados:
-      <a class="text-reset fw-bold" href="index.html">www.SotoBurguers.com</a>
-    </div>
+      <a class="ir-arriba"  javascript:void(0) title="Volver arriba">
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
 
-  </footer>
+    </footer>
 
 
-    <script src="javascript/validarCorreo.js"></script>
-    <script src="../javascript/login.js"></script>
-    <script src="javascript/funciones.js"></script>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"></script>
+
+    <script src="javascript/funciones.js"></script>
 </body>
 
 

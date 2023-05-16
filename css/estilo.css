@@ -131,6 +131,18 @@ textarea.error   {
 }
 
 
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }
+
 .color1 { color: #f1ecdf };
 .color2 { color:#d4c9ad };
 .color3 { color: #c7ba99 };

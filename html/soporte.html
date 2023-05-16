@@ -13,8 +13,9 @@
 
   <link rel="icon" type="image/x-icon" href="../Imagenes/logoSotoBurguer.png" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -40,7 +41,7 @@
           </li>
           <li class="nav-item">
 
-            <a class="nav-link active text-white" href="'Locales.html"><i class="fa-solid fa-shop"></i> Locales</a>
+            <a class="nav-link active text-white" href="Locales.html"><i class="fa-solid fa-shop"></i> Locales</a>
           </li>
           <li class="nav-item">
             <a class="navbar-brand" href="../index.html">
@@ -61,17 +62,17 @@
       </div>
     </div>
   </nav>
- <br>
-  
+  <br>
+
 
 
 
 
   <main class="formulario_a d-flex align-items-center justify-content-center">
-   
+
     <section>
       <div class="form-group">
-        <h1 class="titulo_soporte" > Soporte</h1>
+        <h1 class="titulo_soporte"> Soporte</h1>
         <form action="" id="formulario_contacto">
 
           <label for="nombre">Nombre</label>
@@ -118,6 +119,8 @@
     </section>
   </main>
   <footer>
+
+
     <section class="container">
       <br>
       <div class="container text-center text-md-start">
@@ -127,28 +130,35 @@
 
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
+            <div id="alertRojo" class="alert alert-danger" role="alert">
+              El correo ingresesado es no es válido
+            </div>
+
+            <div id="alertVerde" class="alert alert-success" role="alert">
+              Correo ingresado correctamente
+            </div>
+
             <h6 class="text-uppercase fw-bold mb-4">
-              Quieres ser el primero en enterarte de nustras nuevas hamburguesas y promos?
+              ¿Quieres ser el primero en enterarte de nuestras nuevas hamburguesas y promos?
             </h6>
-            <p>Suscríbete a nuestro Newsletter:</p>
+            <p>Suscríbete a nuestro Newsletter</p>
 
             <form>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Ingrese su correo: </label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="correo" class="form-label">Ingrese su correo: </label>
+                <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">Nunca compartiremos tu correo</div>
+                <input type="button" class="btn btn-warning" value="Suscribirse"
+                  onclick="validarCorreo(document.getElementById('correo').value)">
 
               </div>
             </form>
-
-            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-              id="abrirModal">Suscribirse</button>
 
             <div id="ventanaModal" class="modal">
               <div class="contenido-modal">
                 <span class="cerrar">&times;</span>
                 <h2 class="display-5">Soto Burguers</h2>
-                <p>Correo registrado correctamente</p>
+                <p>se ha suscrito correctamente</p>
               </div>
             </div>
 
@@ -193,6 +203,13 @@
       <a class="text-reset fw-bold" href="index.html">www.SotoBurguers.com</a>
     </div>
 
+    <a class="ir-arriba" javascript:void(0) title="Volver arriba">
+      <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -200,11 +217,6 @@
     crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
-
-
-  <script src="../javascript/form_jquery.js"></script>
-
-  <script src="../javascript/funciones.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -214,6 +226,9 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
+  <script src="../javascript/form_jquery.js"></script>
+
+  <script src="../javascript/funciones.js"></script>
 
 </body>
 
