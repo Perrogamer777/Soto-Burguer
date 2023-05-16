@@ -132,7 +132,9 @@ textarea.error   {
 }
 
 
-
+header{
+    
+}
 nav{
     
     background-color: rgb(245, 172, 61);
@@ -152,6 +154,18 @@ footer{
 
 }
 
+
+body.showLoginForm .popup-overlay{
+    display: block;
+}
+body.showLoginForm .popup{
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+
 #divmap{
     height: 400px; 
     width: 1180px;
@@ -161,6 +175,7 @@ footer{
 }
 
 
+<<<<<<< HEAD
   
 /* Fondo modal: negro con opacidad al 50% */
 .modal {
@@ -214,6 +229,8 @@ footer{
 
 
 
+=======
+>>>>>>> 0d2a5535d84cb19481567970115b5cd49dd1764f
 /* mapita responsivo */
 
 @media screen and (max-width:1200px){
