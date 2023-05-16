@@ -13,7 +13,7 @@ $(document).ready(function () {
                 email: true
 
             },
-            tipo_documento: {
+            tipo_mensaje: {
                 required: true
             },
             rut: {
@@ -44,20 +44,9 @@ $(document).ready(function () {
                 required: "Por favor ingresa un corrreo",
                 email: "Por favor ingresa un correo válido"
             },
-            tipo_documento: {
-                required: "Por favor selecciona un tipo de documento"
+            tipo_mensaje: {
+                required: "Por favor selecciona un tipo de mensaje"
 
-            },
-            rut: {
-                required: "Por favor ingresa un rut valido",
-                minlength: "Por favor ingresa un rut valido",
-                maxlength: "Por favor ingresa un rut valido",
-                
-
-            },
-            telefono: {
-                minlength: "Por favor Ingresa un numero valido",
-                maxlength: "Por favor Ingresa un numero valido"
             },
             ciudad: {
                 required: "Por favor Selecciona una ciudad"

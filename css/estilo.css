@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: Sotoburger;
-    src: url(../font/PTSans-Regular.ttf);
+    src: url('../font/PTSans-Regular.ttf');
 }
 
 .titulo_locales{
@@ -78,6 +78,17 @@
     background-color: rgb 248, 249, 250;
 }
 
+#carouselExampleAutoplaying{
+    box-shadow: 5px 5px 15px gray;
+}
+
+.card-img-top{
+    box-shadow: 5px 5px 15px gray;
+}
+
+.sombra{
+    box-shadow: 5px 5px 15px gray;
+}
 img {
     display: block;
     margin: auto;
@@ -132,9 +143,7 @@ textarea.error   {
 }
 
 
-header{
-    
-}
+
 nav{
     
     background-color: rgb(245, 172, 61);
